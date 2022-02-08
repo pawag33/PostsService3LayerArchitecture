@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../../DAL/DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../../DAL/DataAccessLayer/DataAccessLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "DataAccessLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Pawa\\.nuget\\packages\\": {},
+    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\PostsService3LayerArchitecture\\BL\\BusinessLogic\\BusinessLogic.csproj",
+      "projectName": "BusinessLogic",
+      "projectPath": "C:\\Projects\\PostsService3LayerArchitecture\\BL\\BusinessLogic\\BusinessLogic.csproj",
+      "packagesPath": "C:\\Users\\Pawa\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\PostsService3LayerArchitecture\\BL\\BusinessLogic\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Pawa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Projects\\PostsService3LayerArchitecture\\DAL\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Projects\\PostsService3LayerArchitecture\\DAL\\DataAccessLayer\\DataAccessLayer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
