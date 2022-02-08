@@ -1,9 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\Pawa\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Pawa\\.nuget\\packages",
-      "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ]
-  }
-}
